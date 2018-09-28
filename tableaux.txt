@@ -1,0 +1,78 @@
+Exercices supplémentaires sur les tableaux.
+
+Un solutionnaire sera publié vendredi.
+
+********************************************************************************
+1. Égalité
+********************************************************************************
+Programmez une fonction qui reçoit deux tableaux d'entier et leur taille et
+retourne vrai si les deux tableaux sont identiques et faux sinon.
+
+Deux tableaux sont identiques s'ils ont la même taille et s'ils contiennent les
+mêmes éléments, dans le même ordre.
+
+La signature de la fonction est
+
+int estEgal(double tabSource[], int tailleSource, double tabCompare[], int
+tailleCompare)
+
+
+
+********************************************************************************
+2. Les 2 plus petits
+********************************************************************************
+Programmez une fonction qui reçoit un tableau de doubles et imprime les deux
+plus petits éléments différents. 
+
+La signature de la fonction est
+
+void deuxPlusPetits(double tab[], int taille)
+
+Exemples : 
+Les deux plus petits éléments dans {0, 89, -56, -11, 39} sont -56 et -11
+Les deux plus petits éléments dans {0, 0, 1, -11, 39} sont 0 et 1s
+
+********************************************************************************
+3. Les 3 plus grands
+********************************************************************************
+Programmez une fonction qui reçoit un tableau de doubles et imprime les trois
+plus grands éléments distincts.
+
+La signature de la fonction est
+
+void troisPlusGrands(double tab[], int taille)
+
+Exemples : 
+Les trois plus grands éléments dans {-100, -99, -51, -800} sont -51, -99 et -100
+Les trois plus grands éléments dans {0, 0, 1, -9, 77} sont 77, 1 et 0
+
+********************************************************************************
+4. Les consonnes
+********************************************************************************
+Programmez une fonction qui reçoit une phrase et imprime à la console ses
+consonne.
+
+Les voyelles sont A, a, E, e, I, i, O, o, U et u. Les consonnes sont tous les
+autres caractères.
+
+Une chaîne de caractère termine par le caractère '\0'
+
+La fonction a la signature suivante :
+
+void imprimerConsonne(char phrase[])
+
+Exemple : Pour la phrase "Le lion mange l'antilope.". la fonction imprime : "L
+ln mng l'ntlp."
+
+
+********************************************************************************
+5. Renverser
+********************************************************************************
+Programmez une fonction qui reçoit un tableau d'entier et sa taille, le
+renverse, puis l'imprime.
+
+La fonction a la signature suivante :
+
+void renverserEtImprimer(int tab[], int taille)
+
+Exemple : Le tableau {0, 4, 98, 1} renversé est {1, 98, 4, 0}
