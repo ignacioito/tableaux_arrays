@@ -1,6 +1,6 @@
 // *****************************************************************************
 // Nom : tableaux.c
-// Auteur : 
+// Auteur : Rébecca Lapointe
 // Date : 17 septembre 2018
 //
 // Exercice sur les tableaux. Vous n'avez pas à 
